@@ -13,7 +13,7 @@ import PrivateRoute from '../src/PrivateRoute/PrivateRoute';
 
 
 function App() {
-  const [isAuth, setIsAuth] = useState(false);
+  const [isAuth, setIsAuth] = useState(true);
   return (
     <div className="App">
       <NavBar/>
